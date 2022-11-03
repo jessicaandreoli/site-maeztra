@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --bg-color-body: #FFFFFF;
+  --bg-color-topBar: #353535;
+  --bg-color-button: #FAA500;
+  --bg-color-01: #EFEFEF;
+  --text-color-01: #FFFFFF;
+  --text-color-02: #353535;
+  --font-family-01: 'Titillium Web', sans-serif;;
+  --font-family-02: 'Montserrat', sans-serif;
+
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--font-family-01);
+  background: var(--bg-color-body);
+  width: 192rem;
+}
+
+.top-bar {
+  background: var(--bg-color-topBar);
+  width: 100%;
+  color: var(--text-color-01);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.4rem;
+  font-size: 1.2rem;
+}
+
+.container {
+  width: 159.8rem;
+  margin: 0 auto;
+}
+
+.search {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+  
+}
+
+.search .container-search {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4rem 0;
+  align-items: center;
+}
+
+.container-search .logo {
+  display: flex;
+  align-items: center;
+  width: 14.7rem;
+  height: 1.8rem;
+}
+
+.search-input form {
+  position: relative;
+  margin-right: 14.7rem;
+}
+
+.search-input input[type="text"] {
+  height: 4rem;
+  width: 74.1rem;
+  background: var(--bg-color-01);
+  padding-left: 2.4rem;
+  margin-left: 9.3rem;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: var(--text-color-02);
+  
+}
+
+.search-input input[type="submit"] {
+  background: var(--bg-color-button);
+  width: 11.9rem;
+  height: 4rem;
+  color: var(--text-color-01);
+  font-weight: 400;
+  font-size: 1.4rem;
+  border-radius: .8rem;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.search nav ul {
+  display: flex;
+  list-style: none;
+  gap: 6.3rem;
+}
+
+.search ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+}
+
+.search ul li:last-child {
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--bg-color-button);
+  padding: 1.5rem;
+}
+
+.container ul li a {
+  text-decoration: none;
+}
+
+.links-navigator {
+  padding: 1.4rem 0;
+}
+
+.links-navigator ul {
+  display: flex;
+  list-style: none;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  padding: 0 20rem;
+  justify-content: start;
+  gap: 9.8rem
+}
+
+.links-navigator ul > li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+}
+
+.links-navigator li:last-child {
+  text-transform: uppercase;
+}
+
+.links-navigator ul li a:hover {
+  color: var(--bg-color-button);
+  font-weight: 700;
+}
+

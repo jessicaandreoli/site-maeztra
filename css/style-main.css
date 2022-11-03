@@ -1,0 +1,79 @@
+.banner img:nth-child(2),
+.banner img:nth-child(3) {
+  width: 1.942rem;
+  height: 3.2rem;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img:nth-child(2) {
+  position: absolute;
+  left: 16.1rem;
+  top: 26.9rem;
+}
+
+.banner img:nth-child(3) {
+  position: absolute;
+  right: 16.1rem;
+  top: 26.9rem;
+}
+
+.text-banner {
+  font-family: var(--font-family-02);
+  color: var(--text-color-01);
+  position: absolute;
+  top: 15.1rem;
+  left: 32.3rem;
+}
+
+.text-banner h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.9rem;
+}
+
+.text-banner p {
+  margin: 4rem 0 3.2rem;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.text-banner button {
+  font-family: var(--font-family-02);
+  width: 12.8rem;
+  height: 4.8rem;
+  border-radius: 1rem;
+  background: var(--bg-color-button);
+  color: var(--text-color-01);
+  font-weight: 700;
+  font-size: 1.6rem;
+  border: none;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.scroll-balls {
+  display: flex;
+  gap: 1.6rem;
+  position: absolute;
+  top: 56rem;
+  left: 88.8rem;
+}
+
+.scroll-balls .ball {
+  content: '';
+  width: 1.6rem;
+  height: 1.6rem;
+  border: 1px solid var(--bg-color-button);
+  border-radius: 50%; 
+}
+
+.scroll-balls .ball:hover {
+  background: var(--bg-color-button);
+  cursor: pointer;
+}
+
