@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  @include font-One;
+  background: #FAFAFA;
+}
+
+h2, h3, span, .price, .informations {
+  color: #353535;
+}
+
+h2 {
+  margin-top: 7.4rem;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+.price, .new-collection, .newsletter {
+  h2, h3 {
+    color: #000000;
+  }
+}
+
+p {
+  color: #000000;
+}
+
+ul {
+  li {
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: #353535;
+    }
+  }
+}
+
+
+

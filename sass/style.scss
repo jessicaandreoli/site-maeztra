@@ -1,0 +1,26 @@
+//MIXINS
+@import 'components/mixins/fonts';
+@import 'components/mixins/colors';
+@import 'components/mixins/display-flex';
+@import 'components/mixins/button';
+@import 'components/mixins/hover';
+@import 'components/mixins/box-shadow';
+
+//INITIAL CONFIG
+@import 'components/configuration-initial/style-config';
+@import 'components/configuration-initial/containers';
+@import 'components/configuration-initial/banner';
+
+//HEADER
+@import 'components/header/style-header';
+
+//MAIN
+@import 'components/main/style-main';
+
+//FOOTER
+@import 'components/footer/style-footer';
+
+
+
+
+

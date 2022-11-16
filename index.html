@@ -10,8 +10,8 @@
   <title>Maeztra</title>
   
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style-header.css">
-  <link rel="stylesheet" href="./css/style-main.css">
+  <link rel="stylesheet" href="./css/style.css">
+  
 </head>
 
 <body>
@@ -117,15 +117,15 @@
   <main>
     <section>
       <div class="banner">
-        <img src="./assets/images/banner.png.png" alt="banner principal da página">
-        <img src="./assets/images/Vector arrow left.png" alt="seta para o lado direito">
-        <img src="./assets/images/Vector arrow rigth.png" alt="seta para o lado esquerdo">
-        <div class="text-banner">
+        <div class="banner-main">
+          <img src="./assets/images/banner.png.png" alt="banner principal da página">
+        </div>
+        <div class="banner-text">
           <h1>Promoções de Outono</h1>
           <p>Confiras os melhores looks para combinar <br> com você nesse Outono</p>
           <button>Conferir</button>
         </div>
-        <div class="scroll-balls">
+        <div class="banner-scroll-balls">
           <div class="ball"></div>
           <div class="ball"></div>
           <div class="ball"></div>
@@ -136,55 +136,58 @@
     </section>
 
     <section>
-      <span>Por que comprar na Maeztra?</span>
+      <div class="container-varied">
+        <span>Por que comprar na Maeztra?</span>
 
-      <div class="container-boxs">
-        <div class="products-imports container">
-          <img src="./assets/images/img world.png" alt="">
-          <div class="text-imports">
-            <h3>Produtos importados</h3>
-            <p>Produto de Alta Qualidade</p>
+        <div class="container-boxs">
+          <div class="products-imports container">
+            <img src="./assets/images/img world.png" alt="">
+            <div class="text imports">
+              <h3>Produtos importados</h3>
+              <p>Produto de Alta Qualidade</p>
+            </div>
+          </div>
+    
+          <div class="stock-in-brazil container">
+            <img src="./assets/images/img house.png" alt="">
+            <div class="text stock-brazil">
+              <h3>Estoque no Brasil</h3>
+              <p>Produtos mais perto de você!</p>
+            </div>
+          </div>
+    
+          <div class="guaranteed-exchanges container">
+            <img src="./assets/images/exchanges.png" alt="">
+            <div class="text guaranteed-exchanges">
+              <h3>Trocas Garantidas</h3>
+              <p>Trocas em até 48 horas, vejas as regras</p>
+            </div>
+          </div>
+    
+          <div class="discount-off container">
+            <img src="./assets/images/off.png" alt="">
+            <div class="text discount-off">
+              <h3>Ganhe 5% off</h3>
+              <p>Pagando à vista no Cartão</p>
+            </div>
+          </div>
+    
+          <div class="free-shipping container">
+            <img src="./assets/images/truck.png" alt="">
+            <div class="text free-shipping">
+              <h3>Frete Grátis</h3>
+              <p>Em compras acima de R$ 499,00</p>
+            </div>
           </div>
         </div>
-  
-        <div class="stock-in-brazil container">
-          <img src="./assets/images/img house.png" alt="">
-          <div class="text-stock-brazil">
-            <h3>Estoque no Brasil</h3>
-            <p>Produtos mais perto de você!</p>
-          </div>
-        </div>
-  
-        <div class="guaranteed-exchanges container">
-          <img src="./assets/images/exchanges.png" alt="">
-          <div class="text-guaranteed-exchanges">
-            <h3>Trocas Garantidas</h3>
-            <p>Trocas em até 48 horas, vejas as regras</p>
-          </div>
-        </div>
-  
-        <div class="discount-off container">
-          <img src="./assets/images/off.png" alt="">
-          <div class="text-discount-off">
-            <h3>Ganhe 5% off</h3>
-            <p>Pagando à vista no Cartão</p>
-          </div>
-        </div>
-  
-        <div class="free-shipping container">
-          <img src="./assets/images/truck.png" alt="">
-          <div class="text-free-shipping">
-            <h3>Frete Grátis</h3>
-            <p>Em compras acima de R$ 499,00</p>
-          </div>
-        </div>
+        
       </div>
     </section>
 
     <section>
       <div class="partner-brands">
         <h2>Marcas Parceiras</h2>
-        <div class="img-partner-brands">
+        <div class="partner-brands-img">
           <img src="./assets/images/svg/comma.svg" alt="marca Comma">
           <img src="./assets/images/svg/melissa.svg" alt="marca Melissa">
           <img src="./assets/images/svg/forever.svg" alt="marca Forever">
@@ -198,119 +201,171 @@
       <div class="most-requested">
         <h2>As mais Pedidas</h2>
 
-        <img src="./assets/images/Vector arrow left.png" alt="">
+        <div class="products">
+          <div class="product">
+            <img src="./assets/images/Products/Product one/Product 01.png" alt="">
+            
+            <div class="colors">
+              <div type="color" class="color-one color">
+                <img src="./assets/images/Products/Product one/Rectangle 56.png" alt="">
+              </div>
+              <div type="color" class="color-two color">
+                <img src="./assets/images/Products/Product one/Rectangle 57.png" alt="">
+              </div>
+              <div type="color" class="color-tree color">
+                <img src="./assets/images/Products/Product one/Rectangle 58.png" alt="">
+              </div>
+              <div type="color" class="color-four color">
+                <img src="./assets/images/Products/Product one/Rectangle 59.png" alt="">
+              </div>
+            </div>
+  
+            <div class="price">
+              R$ 500,00
+            </div>
+
+            <div class="content">
+              <h3>Faux Suede Mini Skirt</h3>
+              <p>A faux suede mini skirt featuring exposed <br>
+                button-front closures and panel seam </br>
+                construction.
+              </p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+    
+          <div class="product">
+            <img src="./assets/images/Products/Product Two/Product 02.png" alt="">
+            <div class="colors">
+              <div type="color" class="color-one color">
+                <img src="./assets/images/Products/Product Two/Rectangle 56.png" alt="">
+              </div>
+              <div type="color" class="color-two color">
+                <img src="./assets/images/Products/Product Two/Rectangle 57.png" alt="">
+              </div>
+              <div type="color" class="color-tree color">
+                <img src="./assets/images/Products/Product Two/Rectangle 58.png" alt="">
+              </div>
+              <div type="color" class="color-four color">
+                <img src="./assets/images/Products/Product Two/Rectangle 59.png" alt="">
+              </div>
+            </div>
+  
+            <div class="price">
+              R$ 320,00
+            </div>
+
+            <div class="content">
+              <h3>Ruched Rose Print Mini Skirt</h3>
+              <p>A satin mini skirt featuring an allover floral print,<br>
+                ruched side with self-tie closure, concealed back <br>
+                zipper, and a flounce hem.
+              </p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+    
+          <div class="product">
+            <img src="./assets/images/Products/Product Tree/Product 03.png" alt="">
+            <div class="colors">
+              <div type="color" class="color-one color">
+                <img src="./assets/images/Products/Product one/Rectangle 56.png" alt="">
+              </div>
+              <div type="color" class="color-two color">
+                <img src="./assets/images/Products/Product one/Rectangle 57.png" alt="">
+              </div>
+              <div type="color" class="color-tree color">
+                <img src="./assets/images/Products/Product one/Rectangle 58.png" alt="">
+              </div>
+              <div type="color" class="color-four color">
+                <img src="./assets/images/Products/Product one/Rectangle 59.png" alt="">
+              </div>
+            </div>
+  
+            <div class="price">
+              R$ 500,00
+            </div>
+
+            <div class="content">
+              <h3>Faux Suede Mini Skirt</h3>
+              <p>A faux suede mini skirt featuring exposed <br>
+                button-front closures and panel seam </br>
+                onstruction.
+              </p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+  
+          <div class="product">
+            <img src="./assets/images/Products/Product four/Product 04.png" alt="">
+            <div class="colors">
+              <div type="color" class="color-one color">
+                <img src="./assets/images/Products/Product Two/Rectangle 56.png" alt="">
+              </div>
+              <div type="color" class="color-two color">
+                <img src="./assets/images/Products/Product Two/Rectangle 57.png" alt="">
+              </div>
+              <div type="color" class="color-tree color">
+                <img src="./assets/images/Products/Product Two/Rectangle 58.png" alt="">
+              </div>
+              <div type="color" class="color-four color">
+                <img src="./assets/images/Products/Product Two/Rectangle 59.png" alt="">
+              </div>
+            </div>
+          
+  
+            <div class="price">
+              R$ 320,00
+            </div>
+  
+            <div class="content">
+              <h3>Ruched Rose Print Mini Skirt</h3>
+              <p>A satin mini skirt featuring an allover floral print,<br>
+                ruched side with self-tie closure, concealed back <br>
+                zipper, and a flounce hem.
+              </p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+    
+          <div class="product">
+            <img src="./assets/images/Products/Product five/Product 05.png" alt="">
+            <div class="colors">
+              <div type="color" class="color-one color">
+                <img src="./assets/images/Products/Product one/Rectangle 56.png" alt="">
+              </div>
+              <div type="color" class="color-two color">
+                <img src="./assets/images/Products/Product one/Rectangle 57.png" alt="">
+              </div>
+              <div type="color" class="color-tree color">
+                <img src="./assets/images/Products/Product one/Rectangle 58.png" alt="">
+              </div>
+              <div type="color" class="color-four color">
+                <img src="./assets/images/Products/Product one/Rectangle 59.png" alt="">
+              </div>
+            </div>
+  
+            <div class="price">
+              R$ 500,00
+            </div>
+  
+            <div class="content">
+              <h3>Faux Suede Mini Skirt</h3>
+              <p>A faux suede mini skirt featuring exposed <br>
+                button-front closures and panel seam </br>
+                construction.
+              </p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
         
-        <div class="product">
-          <img src="./assets/images/Products/Product one/Product 01.png" alt="">
-          
-          <div class="colors">
-            <div type="color" class="color-one color">
-            <div type="color" class="color-two color">
-            <div type="color" class="color-tree color">
-            <div type="color" class="color-four color">
-          </div>
-
-          <div class="price">
-            R$ 500,00
-          </div>
-          
-          <h3>Faux Suede Mini Skirt</h3>
-          <p>A faux suede mini skirt featuring exposed <br>
-            button-front closures and panel seam </br>
-            construction.
-          </p>
-          <button>Adicionar</button>
-        </div>
-  
-        <div class="product">
-          <img src="./assets/images/Products/Product Two/Product 02.png" alt="">
-          <div class="colors">
-            <div type="color" class="color-one color">
-            <div type="color" class="color-two color">
-            <div type="color" class="color-tree color">
-            <div type="color" class="color-four color">
-          </div>
-
-          <div class="price">
-            R$ 320,00
-          </div>
-
-          <h3>Ruched Rose Print Mini Skirt</h3>
-          <p>A satin mini skirt featuring an allover floral print,<br>
-            ruched side with self-tie closure, concealed back <br>
-            zipper, and a flounce hem.
-          </p>
-          <button>Adicionar</button>
-        </div>
-  
-        <div class="product">
-          <img src="./assets/images/Products/Product Tree/Product 03.png" alt="">
-          <div class="colors">
-            <div type="color" class="color-one color">
-            <div type="color" class="color-two color">
-            <div type="color" class="color-tree color">
-            <div type="color" class="color-four color">
-          </div>
-
-          <div class="price">
-            R$ 500,00
-          </div>
-
-          <h3>Faux Suede Mini Skirt</h3>
-          <p>A faux suede mini skirt featuring exposed <br>
-            button-front closures and panel seam </br>
-            onstruction.
-          </p>
-          <button>Adicionar</button>
-        </div>
-  
-        <div class="product">
-          <img src="./assets/images/Products/Product four/Product 04.png" alt="">
-          <div class="colors">
-            <div type="color" class="color-one color">
-            <div type="color" class="color-two color">
-            <div type="color" class="color-tree color">
-            <div type="color" class="color-four color">
-          </div>
-
-          <div class="price">
-            R$ 320,00
-          </div>
-
-          <h3>Ruched Rose Print Mini Skirt</h3>
-          <p>A satin mini skirt featuring an allover floral print,<br>
-            ruched side with self-tie closure, concealed back <br>
-            zipper, and a flounce hem.
-          </p>
-          <button>Adicionar</button>
-        </div>
-  
-        <div class="product">
-          <img src="./assets/images/Products/Product five/Product 05.png" alt="">
-          <div class="colors">
-            <div type="color" class="color-one color">
-            <div type="color" class="color-two color">
-            <div type="color" class="color-tree color">
-            <div type="color" class="color-four color">
-          </div>
-
-          <div class="price">
-            R$ 500,00
-          </div>
-
-          <h3>Faux Suede Mini Skirt</h3>
-          <p>A faux suede mini skirt featuring exposed <br>
-            button-front closures and panel seam </br>
-            construction.
-          </p>
-          <button>Adicionar</button>
-        </div>
-      </div>
-      </div>
       
     <section>
       <div class="new-collection">
-        <div>
+        <div class="content-text">
           <h2>Lorem ipsum </h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum <br>
             mauris posuere fusce proin mattis. Hendrerit cras ut nunc enim dictum.<br>
@@ -332,7 +387,7 @@
       <div class="newsletter">
         <h3>Recebe Nossa Newsletter</h3>
 
-        <form>
+        <form class="newsletter-form">
           <input name="newsletter" type="text" placeholder="Digite seu e-mail">
           <input type="submit" value="Enviar">
         </form>
@@ -371,41 +426,45 @@
     </section>
     
     <section>
-      <div class="social-media">
-        <a href="#">
-          <img src="./assets/images/footer/facebook.com.png" alt="">
-        </a>
-
-        <a href="#">
-          <img src="./assets/images/footer/Vector linkedin.png" alt="">
-        </a>
-
-        <a href="#">
-          <img src="./assets/images/footer/Vector instagran.png" alt="">
-        </a>
-
-        <a href="#">
-          <img src="./assets/images/footer/Vector youtube.png" alt="">
-        </a>
-      </div>
-
-      <div class="cards">
-        <img src="./assets/images/footer/Vector card1.png" alt="imagem cartão um">
-        <img src="./assets/images/footer/Vector card2.png" alt="imagem cartão dois">
-        <img src="./assets/images/footer/Vector card3.png" alt="imagem cartão três">
-        <img src="./assets/images/footer/Vector card4.png" alt="imagem cartão quatro">
-      </div>
-
-      <div class="developed-by">
-        <div>
-          <img src="./assets/images/footer/Powered by.png" alt="Frase alimentado por">
-        <img src="./assets/images/footer/logo footer.png" alt="logo vtex">
+      <div class="informations-footer">
+        <div class="social-media">
+          <a href="#">
+            <img src="./assets/images/footer/facebook.com.png" alt="">
+          </a>
+  
+          <a href="#">
+            <img src="./assets/images/footer/Vector linkedin.png" alt="">
+          </a>
+  
+          <a href="#">
+            <img src="./assets/images/footer/Vector instagran.png" alt="">
+          </a>
+  
+          <a href="#">
+            <img src="./assets/images/footer/Vector youtube.png" alt="">
+          </a>
         </div>
-        
-        <img src="./assets/images/footer/Developed by.png" alt="Frase desenvolvido por">
-        <img src="./assets/images/footer/[2019-05]-Maeztra---Logo----cor.png" alt="logo Maeztra">
+  
+        <div class="cards">
+          <img src="./assets/images/footer/Vector card1.png" alt="imagem cartão um">
+          <img src="./assets/images/footer/Vector card2.png" alt="imagem cartão dois">
+          <img src="./assets/images/footer/Vector card3.png" alt="imagem cartão três">
+          <img src="./assets/images/footer/Vector card4.png" alt="imagem cartão quatro">
+        </div>
+  
+        <div class="developed-by">
+          <div>
+            <img src="./assets/images/footer/Powered by.png" alt="Frase alimentado por">
+            <img src="./assets/images/footer/logo footer.png" alt="logo vtex">
+          </div>
+          
+          <div>
+            <img src="./assets/images/footer/Developed by.png" alt="Frase desenvolvido por">
+            <img src="./assets/images/footer/[2019-05]-Maeztra---Logo----cor.png" alt="logo Maeztra">
+          </div>
       </div>
-    </div>
+      </div>
+      
     </section>
   </footer>
 </body>

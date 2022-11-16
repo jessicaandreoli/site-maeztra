@@ -1,0 +1,112 @@
+.top-bar {
+  @include color-TopBar;
+  @include display-flex-center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.4rem;
+  font-size: 1.2rem;
+}
+
+.search {
+  @include box-shadow;
+  padding: 2.4rem 0;
+
+  .container-search {
+    @include display-flex-center;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      @include display-flex-center;
+      width: 14.7rem;
+      height: 1.8rem;
+    }
+
+    .search-input{
+      form {
+        position: relative;
+        margin-right: 14.7rem;
+
+        input[type="text"] {
+          height: 4rem;
+          width: 74.1rem;
+          background: #EFEFEF;
+          padding-left: 2.4rem;
+          margin-left: 9.3rem;
+          border: none;
+          outline: 0;
+          border-radius: 1rem;
+          font-weight: 400;
+          font-size: 1.2rem;
+          color: #353535;
+        }
+
+        input[type="submit"] {
+          @include button-main;
+          width: 11.9rem;
+          height: 4rem;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+
+        
+      }
+    }
+
+    nav{
+      ul{
+        @include display-flex-center;
+        list-style: none;
+        gap: 6.3rem;
+
+        li {
+          @include display-flex-center;
+          justify-content: center;
+          gap: .8rem;
+
+          &:last-child {
+            border-radius: 1rem;
+            padding: 1rem;
+            border: 1px solid #FAA500;
+            padding: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+nav .links-navigator {
+  padding: 1.4rem 0;
+
+  ul {
+    @include display-flex-center;
+    list-style: none;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    padding: 0 30rem;
+    justify-content: space-between;
+  }
+
+  ul > li a {
+    @include display-flex-center;
+    gap: .8rem;
+  }
+
+  li {
+    a:hover {
+    @include hoverText;
+    font-weight: 700;
+    }
+  
+    &:last-child {
+      text-transform: uppercase;
+    }
+  }
+  
+}
+

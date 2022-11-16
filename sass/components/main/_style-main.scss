@@ -1,0 +1,180 @@
+.banner {
+  &-text {
+    @include font-Two;
+    color: #FFFFFF;
+    position: absolute;
+    top: 15.1rem;
+    left: 32.3rem;
+
+    h1 {
+      font-weight: 700;
+      font-size: 4rem;
+      line-height: 4.9rem;
+    }
+
+    p {
+      margin: 4rem 0 3.2rem;
+      font-weight: 400;
+      font-size: 2rem;
+      line-height: 2.4rem;
+      color: #FFFFFF;
+    }
+
+    button {
+      @include font-Two;
+      @include button-main;
+      width: 12.8rem;
+      height: 4.8rem;
+      border-radius: 1rem;
+      font-weight: 700;
+      font-size: 1.6rem;
+    }
+  }
+  &-scroll-balls {
+    @include display-flex-center;
+    gap:1.6rem;
+    position: absolute;
+    top: 56rem;
+    left: 88.8rem;
+
+    .ball {
+      content: '';
+      width: 1.6rem;
+      height: 1.6rem;
+      border: 1px solid #FAA500;
+      border-radius: 50%; 
+
+      &:hover {
+        @include hoverBg;
+      }
+    }
+  }
+}
+
+.container-varied {
+  @include display-flex-center;
+  flex-direction: column;
+  padding: 2.4rem 0;
+
+    span {
+      font-weight: 700;
+      font-size: 1.6rem;
+    }
+
+    .container-boxs {
+      @include display-flex-center;
+      padding-top: 2.1rem;
+      gap: 1.5rem;
+
+      .container {
+        width: 30.8rem;
+        height: 6.4rem;
+        background: #EFEFEF;
+        border-radius: .4rem;
+        @include display-flex-center;
+        gap: 2.2rem;
+        padding-left: 2.2rem;
+
+          .text {
+            @include display-flex-center;
+            flex-direction: column;
+
+            h3 {
+              font-weight: 700;
+              font-size: 1.4rem;
+            }
+    
+            p {
+              font-weight: 400;
+              font-size: 1.2rem;
+            }
+          }
+      }
+    }
+}
+
+.partner-brands {
+  @include display-flex-center;
+  flex-direction: column;
+
+  &-img {
+    @include display-flex-center;
+    padding-top: 2.1rem; 
+    height: 6.4rem;
+    overflow: hidden;
+    gap: 1.2rem;
+  }
+}
+
+.looks {
+  .most-requested {
+    @include display-flex-center;
+    flex-direction: column;
+
+    .products {
+      margin-top: 1.7rem;
+      @include display-flex-center;
+      gap: 1.6rem;
+      
+      .product {
+        .colors {
+          @include display-flex-center;
+          gap: .8rem;
+        }
+
+        .price {
+          font-weight: 700;
+          font-size: 2rem;
+        }
+
+        .content {
+          width: 30.8rem;
+
+          h3 {
+            font-weight: 400;
+            font-size: 1.6rem;
+          }
+  
+          p {
+            font-size: 1.2rem;
+            line-height: 1.825rem;
+          }
+
+          button {
+            @include button-main;
+            width: 100%;
+            font-weight: 400;
+            font-size: 1.6rem;
+            border-radius: .4rem;
+            height: 3.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.new-collection {
+  @include display-flex-center;
+  justify-content: center;
+  margin-top: 7.4rem;
+  gap: 6.4rem;
+
+  .content-text {
+    width: 42rem;
+    align-items: flex-start;
+
+    h2 {
+      font-weight: 700;
+      font-size: 2.4rem;
+      margin-bottom: 1.6rem;
+      margin-top: 0;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 2.1rem;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@mixin font-One() {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.6rem;
+}
+
+@mixin font-Two() {
+  font-family: 'Montserrat', sans-serif;
+}
+

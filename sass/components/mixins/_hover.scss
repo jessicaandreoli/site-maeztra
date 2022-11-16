@@ -1,0 +1,9 @@
+@mixin hoverBg($color:#FAA500) {
+  background: $color;
+  cursor: pointer;
+}
+
+@mixin hoverText($color:#FAA500) {
+  color: $color;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+@mixin button-main() {
+  @include display-flex-center;
+  justify-content: center;
+  background: #FAA500;
+  border-radius: .8rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
