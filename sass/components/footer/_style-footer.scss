@@ -68,7 +68,7 @@
     @include display-flex-center;
     gap: 2.2rem;
 
-    div {
+    .footer {
       @include display-flex-center;
       flex-direction: column;
     }
