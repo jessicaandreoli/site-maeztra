@@ -1,4 +1,14 @@
 .banner {
+  &-main {
+    .slick {
+      &-prev {
+        left: 16rem;
+      }
+      &-next {
+        right: 16rem;
+      }
+    }
+  }
   &-text {
     @include font-Two;
     color: #FFFFFF;
@@ -28,25 +38,6 @@
       border-radius: 1rem;
       font-weight: 700;
       font-size: 1.6rem;
-    }
-  }
-  &-scroll-balls {
-    @include display-flex-center;
-    gap:1.6rem;
-    position: absolute;
-    top: 56rem;
-    left: 88.8rem;
-
-    .ball {
-      content: '';
-      width: 1.6rem;
-      height: 1.6rem;
-      border: 1px solid #FAA500;
-      border-radius: 50%; 
-
-      &:hover {
-        @include hoverBg;
-      }
     }
   }
 }
@@ -113,13 +104,22 @@
 
     .products {
       margin-top: 1.7rem;
-      @include display-flex-center;
-      gap: 1.6rem;
+      width: 100%;
       
       .product {
+        cursor: pointer;
+        
+        .productImg {
+          width: 31rem;
+          transition: all .3s;
+          &:hover {
+            transform: scale(1.01);
+          }
+        }
         .colors {
           @include display-flex-center;
           gap: .8rem;
+          margin-top: .8rem;
         }
 
         .price {
@@ -128,7 +128,7 @@
         }
 
         .content {
-          width: 30.8rem;
+          width: 25.4rem;
 
           h3 {
             font-weight: 400;
@@ -138,6 +138,7 @@
           p {
             font-size: 1.2rem;
             line-height: 1.825rem;
+            opacity: 0.5;
           }
 
           button {
